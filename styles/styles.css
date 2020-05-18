@@ -34,17 +34,11 @@ body {
 }
 
 
-/*
- * Header
- */
-.masthead {
-  margin-bottom: 2rem;
-}
 
 .masthead-brand {
-  margin-bottom: 0;
   font-size: 30px;
 }
+
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
