@@ -54,6 +54,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  font-size: 30px;
 }
 
 .nav-masthead .nav-link {
@@ -88,10 +89,6 @@ body {
   }
 }
 
-
-/*
- * Cover
- */
 
 .logodiv {
   padding: 50px;

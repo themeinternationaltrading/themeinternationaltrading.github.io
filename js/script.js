@@ -5,7 +5,7 @@ $(document).ready(function() {
         $("#aboutlink").addClass("active");
         $("#home").hide();
         $("#contact").hide();
-        $("#about").show();
+        $("#about").fadeIn("slow");
     });
     $("#contactlink").click(function() {
         $("#homelink").removeClass("active");
@@ -13,7 +13,7 @@ $(document).ready(function() {
         $("#contactlink").addClass("active");
         $("#home").hide();
         $("#about").hide();
-        $("#contact").show();
+        $("#contact").fadeIn("slow");
     });
     $("#homelink").click(function() {
         $("#aboutlink").removeClass("active")
@@ -21,6 +21,6 @@ $(document).ready(function() {
         $("#homelink").addClass("active")
         $("#contact").hide();
         $("#about").hide();
-        $("#home").show();
+        $("#home").fadeIn("slow");
     });
 });
