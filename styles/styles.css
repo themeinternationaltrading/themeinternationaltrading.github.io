@@ -33,7 +33,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: #333;
-  background-image: url("/images/bg.png");
+  background-image: url("../images/bg.png");
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
@@ -91,9 +91,6 @@ body {
 /*
  * Cover
  */
-.cover {
-  padding: 0 1.5rem;
-}
 
 .logodiv {
   padding: 50px;
