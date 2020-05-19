@@ -25,8 +25,8 @@ body {
   background-image: url("../images/bg.png");
   background-color: #fff;
   background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-position-y: bottom;
+  background-position: 50% bottom;
+  background-attachment: fixed;
 }
 
 .cover-container {
