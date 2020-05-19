@@ -56,5 +56,6 @@ body {
  * Footer
  */
 .mastfoot {
+  padding-top: 30px;
   color: #333;
 }
