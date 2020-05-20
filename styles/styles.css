@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'copperplate_gothic_boldRg';
+  src: url('../fonts/copperplate_gothic_bold_regular-webfont.woff2') format('woff2'),
+       url('../fonts/copperplate_gothic_bold_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /*
  * Globals
  */
@@ -37,7 +44,7 @@ body {
 
 .masthead-brand {
   font-size: 50px;
-  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  font-family: 'copperplate_gothic_boldRg', fantasy;
 }
 
 .logodiv {
