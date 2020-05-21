@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'copperplate_gothic_boldRg';
+  src: url('../fonts/copperplate_gothic_bold_regular-webfont.woff2') format('woff2'),
+       url('../fonts/copperplate_gothic_bold_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #333;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #333;
+  background-image: url("../images/bg.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 50% bottom;
+  background-attachment: fixed;
+}
+
+.cover-container {
+  max-width: 50em;
+}
+
+
+
+.masthead-brand {
+  font-size: 50px;
+  font-family: 'copperplate_gothic_boldRg', fantasy;
+}
+
+.logodiv {
+  padding-bottom: 10px;
+}
+
+.logo {
+  height: 200px;
+}
+
+.about {
+  font-family: Bookman Old Style;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  padding-top: 30px;
+  color: #333;
+}
